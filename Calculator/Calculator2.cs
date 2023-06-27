@@ -232,7 +232,9 @@ namespace Calculator
                 double percentageValue = (num * double.Parse(resultBox.Text)) / 100;
                 
                 resultBox.Text = percentageValue.ToString();
-              
+                //displayBox.Text += percentageValue.ToString();
+
+
             }
         }
 
